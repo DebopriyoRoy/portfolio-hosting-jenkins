@@ -1,5 +1,19 @@
-```
+# Git
 .git
 .gitignore
+
+# CI/CD
 Jenkinsfile
+kubernetes/
+
+# Docs
+README.md
 *.md
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Local env overrides
+.env
+.env.*
