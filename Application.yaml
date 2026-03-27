@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: portfolio-website
-          image: debopriyoroy/portfolio-hosting:${BUILD_NUMBER}
+          image: debopriyoroy/portfolio-hosting:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
