@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: portfolio-website
-          image: debopriyoroy/portfolio-hosting:latest
+          image: 557270420072.dkr.ecr.us-east-1.amazonaws.com/cicd-jenkins:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
